@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.side_nav{
+    position: fixed;
+    top: 0;
+    left: 5px;
+    width: 250px;
+    height: 100vh;
+    background: #A3C6C4;
+    box-shadow: 0px 0px 6px 0px;
+    display: grid;
+    grid-template-rows: 0fr 0.5fr 3fr;
+    z-index: 2;
+}
+.side_nav .col .responsive-img{
+    border-radius: 1px;
+    height: 40vh;
+    margin: 1.4rem;
+    margin-top: 10px;
+    background: grey;
+}
+.side_nav span{
+    position: relative;
+    margin: auto;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.575);
+}
+.material-icons{
+    position: absolute;
+    left: 45px;
+}
+.nav_btn{
+    margin: auto;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.nav_btn li{
+    display:flex;
+    cursor: pointer;
+    letter-spacing: 5px;
+    margin-bottom:20px;
+    margin-left: auto;
+}
+.nav_btn a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    text-shadow: 2px 1px 1px rgba(255, 255, 255, 0.575);
+}
+.header{
+    width: 100%;
+    height: fit-content;
+    font-size: 50px;
+    background: whitesmoke;
+    box-shadow: 0px 0px 2px 0px;
+    position: fixed;
+    z-index: 1;
+}
+.header span{
+    margin-left: 300px;
+    color: #A3C6C4;
+    font-weight: bolder;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.575);
+}
+#news{
+    height:fit-content;
+    width: 75%;
+    position: absolute;
+    background: white;
+    text-align:center;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 5px;
+    left: 320px;
+    right: auto;
+    top: 13%;
+}
+
+#main_content{
+    height:fit-content;
+    width: 75%;
+    position: absolute;
+    background: white;
+    text-align:center;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 5px;
+    left: auto;
+    right: 3%;
+    top: 15%;
+    margin-bottom: 20px;
+}
+#content span{
+   font-size: large;
+   font-style: normal;
+}
+
+.footer{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+
